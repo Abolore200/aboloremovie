@@ -1,0 +1,38 @@
+*{padding:0;margin:0;box-sizing:border-box;outline:0;}
+body{font-family:'DM Sans';width:100%;}
+html{font-family:'Dm Sans';}
+header{width:100;}
+header nav{display:flex;align-items:center;padding:15px 0;background-color:#292929;padding-left:77px;}
+.img img{padding:5px 10px}
+.img{display:flex;align-items:center;margin:15px 0;}
+.img a{border:1px solid #fff;display:flex;padding:5px 8px;}
+.home-img{background-image:url("../image/Rectangle_5.jpg");height:550px;background-position:center;background-repeat:no-repeat;
+background-size:cover;}
+.home-img{display:flex;align-items:center;}
+.home-img p{font-weight:700;color:#fff;font-size:72px;padding-left:77px;letter-spacing:-2px;line-height:94px;text-transform:capitalize;}
+.section-one{margin-top:20px;margin-bottom:50px;width:100%;}
+.searchbar{width:90%;margin:auto;}
+.searchbar input[type="search"]{transition:box-shadow .3s;width:100%;
+    padding:10px 5px;border:1px solid #000;margin-top:5px;border-radius:5px;}
+.searchbar label{font-weight:600;}
+.searchbar input[type="search"]:focus{box-shadow: 0px 0px 10px -1px #000;}
+/* .searchbar input[type="search"]:focus{transition-property:box-shadow 1s;} */
+.list-row-one ul, .list-row-two ul{display:flex;margin-bottom:20px;padding-bottom:35px;}
+.list-row-one ul li, .list-row-two ul li{width:300px;min-width:300px;height:300px;margin:0 5px;border-radius:12px;padding-bottom:10px;
+    list-style:none;background-color:#000;}
+.row-one, .row-two{overflow-x:scroll;overflow-y:hidden;}
+/* .list-row-one ul li{display:flex;align-items:center;justify-content:center;} */
+.list-row-one ul li span{padding:8px 13px;color:#fff}
+.section-two{width:95%;margin:auto;}
+.movie-name{font-size:2rem;margin-bottom:10px;letter-spacing:-2px;}
+/* .list-row-one ul li{background-image:url(/image/MyTestApp.png);} */
+.li-one img{width:300px;height:300px;border-radius:12px;}
+.li-one figcaption{text-align:center;}
+.li-one a figcaption p{color:#000;font-weight:600;}
+.li-one a{text-decoration:none;}
+.list-row-one ul li:nth-child(even), .list-row-two ul li:nth-child(even){display:none;}
+.row-one::-webkit-scrollbar,.row-two::-webkit-scrollbar{height:5px;}
+.row-one::-webkit-scrollbar-track,.row-two::-webkit-scrollbar-track{background:#f1f1f1;border-radius:5px}
+.row-one::-webkit-scrollbar-thumb,.row-two::-webkit-scrollbar-thumb{background:#888;border-radius:5px}
+.row-one::-webkit-scrollbar-thumb:hover,.row-two::-webkit-scrollbar-thumb:hover{background:#555;}
+.section-two{padding-bottom:20px;}

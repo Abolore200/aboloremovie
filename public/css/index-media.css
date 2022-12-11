@@ -1,0 +1,12 @@
+@media screen and (max-width: 768px){
+    header nav{justify-content:center;padding-left:0px;}
+    .home-img{justify-content:center;}
+    .home-img p{padding-left:0px;text-align:center;font-size:45px;}
+    .note br:nth-child(1){display:none;}
+    .section-two{width:90%;}
+}
+@media screen and (min-width: 769px) and (max-width:900px){
+    .home-img p{padding-left:0px;}
+    .note{width: 100%;text-align: center;}
+    header nav{justify-content: center;padding-left: 0px;}
+}
