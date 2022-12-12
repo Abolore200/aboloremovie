@@ -5,8 +5,9 @@ categories.onload = function(){
     if(this.status === 200){
         const response = JSON.parse(this.responseText)
         const moviename = document.querySelector('.movie-name')
+        const movienames = document.querySelector('.movie-names')
         moviename.innerHTML = `${response.Title}`
-        
+        movienames.innerHTML = `${response.Title}`
     }
 }
 categories.send()

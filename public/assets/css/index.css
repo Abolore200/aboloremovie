@@ -17,22 +17,22 @@ background-size:cover;}
 .searchbar label{font-weight:600;}
 .searchbar input[type="search"]:focus{box-shadow: 0px 0px 10px -1px #000;}
 /* .searchbar input[type="search"]:focus{transition-property:box-shadow 1s;} */
-.list-row-one ul, .list-row-two ul{display:flex;margin-bottom:20px;padding-bottom:35px;}
-.list-row-one ul li, .list-row-two ul li{width:300px;min-width:300px;height:300px;margin:0 5px;border-radius:12px;padding-bottom:10px;
-    list-style:none;background-color:#000;}
-.row-one, .row-two{overflow-x:scroll;overflow-y:hidden;}
+#ul-list-one, #ul-list-two{display:flex;margin-bottom:20px;padding-bottom:35px;}
+#ul-list-one li, #ul-list-two li{width:300px;min-width:300px;margin:0 5px;border-radius:12px;padding-bottom:10px;
+    list-style:none;}
+#ul-list-one,#ul-list-two{overflow-x:scroll;overflow-y:hidden;}
 /* .list-row-one ul li{display:flex;align-items:center;justify-content:center;} */
 .list-row-one ul li span{padding:8px 13px;color:#fff}
 .section-two{width:95%;margin:auto;}
-.movie-name{font-size:2rem;margin-bottom:10px;letter-spacing:-2px;}
+.movie-name,.movie-names{font-size:2rem;margin-bottom:10px;letter-spacing:-2px;}
 /* .list-row-one ul li{background-image:url(/image/MyTestApp.png);} */
-.li-one img{width:300px;height:300px;border-radius:12px;}
+#ul-list-one figure img,#ul-list-two figure img{width:300px;height:300px;border-radius:12px;}
 .li-one figcaption{text-align:center;}
 .li-one a figcaption p{color:#000;font-weight:600;}
 .li-one a{text-decoration:none;}
-.list-row-one ul li:nth-child(even), .list-row-two ul li:nth-child(even){display:none;}
-.row-one::-webkit-scrollbar,.row-two::-webkit-scrollbar{height:5px;}
-.row-one::-webkit-scrollbar-track,.row-two::-webkit-scrollbar-track{background:#f1f1f1;border-radius:5px}
-.row-one::-webkit-scrollbar-thumb,.row-two::-webkit-scrollbar-thumb{background:#888;border-radius:5px}
-.row-one::-webkit-scrollbar-thumb:hover,.row-two::-webkit-scrollbar-thumb:hover{background:#555;}
+#ul-list-one li:nth-child(even),#ul-list-two li:nth-child(even){display:none;}
+#ul-list-one::-webkit-scrollbar,#ul-list-two::-webkit-scrollbar{height:5px;}
+#ul-list-one::-webkit-scrollbar-track,#ul-list-two::-webkit-scrollbar-track{background:#f1f1f1;border-radius:5px}
+#ul-list-one::-webkit-scrollbar-thumb,#ul-list-two::-webkit-scrollbar-thumb{background:#888;border-radius:5px}
+#ul-list-one::-webkit-scrollbar-thumb:hover,#ul-list-two::-webkit-scrollbar-thumb:hover{background:#555;}
 .section-two{padding-bottom:20px;}
